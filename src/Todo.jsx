@@ -56,7 +56,7 @@ const Todo = () => {
           <h1 className=" text-[50px] text-center font-bold font-merr bg-red-500 py-5 mt-5 text-white rounded-full">
             Market list
           </h1>
-          <div className=" w-full h-[700px mt-10 flex gap-[10px]">
+          <div className=" w-full h-[700px mt-10 flex gap-[5px]">
             <input
               value={input}
               onChange={handelInput}
@@ -65,7 +65,7 @@ const Todo = () => {
               placeholder="type your list item"
             />
             <button
-              className="w-[100px] h-[50px] border-[2px] border-red-500 rounded-full bg-red-500 text-white text-[20px] font-bold hover:bg-transparent hover:text-red-500"
+              className="w-[100px] h-[50px] border-[2px] border-red-500 rounded-full bg-red-500 text-white text-[15px] font-bold hover:bg-transparent hover:text-red-500"
               onClick={handelSubmit}
             >
               submit
