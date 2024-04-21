@@ -65,7 +65,7 @@ const Todo = () => {
               placeholder="type your list item"
             />
             <button
-              className="w-[150px] h-[50px] border-[2px] border-red-500 rounded-full bg-red-500 text-white text-[20px] font-bold hover:bg-transparent hover:text-red-500"
+              className="w-[100px] h-[50px] border-[2px] border-red-500 rounded-full bg-red-500 text-white text-[20px] font-bold hover:bg-transparent hover:text-red-500"
               onClick={handelSubmit}
             >
               submit
